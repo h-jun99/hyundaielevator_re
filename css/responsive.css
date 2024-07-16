@@ -1,0 +1,114 @@
+@media screen and (max-width:1900px) {
+    .mainwrap .mainsection .swiper-wrapper .swiper-slide video {
+        top: 0; left: 0;
+        height: 100%;
+        object-fit: cover;
+    }
+    .mainwrap .mainsection .swiper-wrapper .swiper-slide img {
+        height: 100%;
+        object-fit: cover;
+    }
+    .secondsection2 {
+        width: 70%;
+    }
+    
+}
+@media screen and (max-width:1420px) {
+    html {
+        font-size: 8px;
+    }
+    .secondsection2 {
+        width: 80%;
+    }
+    .firstsection .textsection .brthat {
+        display: block;
+    }
+}
+@media screen and (max-width:1150px) {
+    html {
+        font-size: 6px;
+    }
+    .mainwrap .mainbanner img {
+        top: 30%;
+    }
+    .mainwrap .maintext {
+        top: 20%;
+    }
+    .secondsection2 {
+        width: 90%;
+        
+    }
+    .secondsection2 .elevator {
+        transform: scale(.8);
+    }
+}
+@media screen and (max-width:860px) {
+    html {
+        font-size: 5px;
+    }
+    
+
+
+    .mainwrap .mainbanner img {
+        top: 45%;
+        left: 45%;
+    }
+    .mainwrap .maintext {
+        top: 30%;
+        left: 45%;
+    }
+    .mainwrap .maintext h1 {
+        font-size: 5rem;
+    }
+    .mainwrap .maintext h1 br {
+        display: block;
+    }
+    .mainwrap .maintext p {
+        font-size: 3rem;
+    }
+    .mainwrap .mainsection {
+        display: none;
+    }
+    .mainwrap::after {
+        content: '';
+        display: block;
+        height: 932px;
+        width: 100%;
+        background: url('../img/main/main/main1.jpg') no-repeat 65%;
+    }
+    .firstsection .textsection {
+        font-size: 7rem;
+        width: 100%;
+    }
+    .firstsection .textmore .text h5 {
+        font-size: 1.5rem;
+        width: 150px;
+    }
+    .firstsection .textmore .more {
+        height: 30px;
+        border: 3px solid green;
+        width: 150px;
+    }
+    .firstsection .textmore .more h5 {
+        font-size: 3rem;
+    }
+    .firstsection .textmore .more .morebox {
+        border-top: 2px solid green;
+        border-right: 2px solid green;    
+    }
+
+    .secondsection2 .elevator {
+        top: 12%; left: 50%;
+        transform: translateX(-50%);
+        
+    }
+    .secondsection2 .escalator {
+        top: 60%; left: 50%;
+        transform: translateX(-50%);
+    }
+    .secondsection2 .parking {
+        top: 100%; left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
